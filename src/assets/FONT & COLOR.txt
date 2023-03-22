@@ -1,0 +1,4 @@
+Font 1 : Playfair Display Bold
+Font 2 : Poppins Regular
+
+Color Hex : #42515F

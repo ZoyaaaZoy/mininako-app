@@ -1,0 +1,9 @@
+Revisi Projek :
+1. Margin 
+2. bg solid color
+3. Navbar + team
+4. Section About
+5. Section Produk
+6. Footer
+7. Contact 
+8. 

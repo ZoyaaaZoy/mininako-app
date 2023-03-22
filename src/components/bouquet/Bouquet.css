@@ -1,0 +1,128 @@
+.container__bouquet {
+    background-color: white;
+}
+
+.section__bouquet {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 3rem;
+    padding: 10rem 6rem 1rem 6rem;
+}
+
+.wrapper__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__bouquet {
+    font-size: var(--h1-font-size);
+    color: var(--main-color);
+    font-family: var(--title-font);
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+.description__bouquet {
+    width: 400px;
+}
+
+.wrapper__bouquet {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__bouquet {}
+
+.shadow {
+    position: absolute;
+    width: 170px;
+    height: 11px;
+    filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: normal;
+    top: 20rem;
+}
+
+/* Section Card */
+.section__card {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.title__card {
+    text-transform: uppercase;
+    color: #252525;
+    font-family: var(--title-font);
+    font-size: 28px;
+    text-align: center;
+}
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card__bouquet {
+    display: flex;
+}
+
+.main__card,
+.cards {
+    border: 2px solid rgba(240, 240, 240, 1);
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 303px;
+    height: 352px;
+}
+
+.first-card {
+    background-image: url("../../assets/img/view-flower.svg");
+}
+
+.second-card {
+    background-image: url("../../assets/img/view-flower4.svg");
+}
+
+.third-card {
+    background-image: url("../../assets/img/view-flower2.svg");
+}
+
+.fourth-card {
+    background-image: url("../../assets/img/view-flower3.svg");
+}
+
+.total__product,
+.wrapper__desc {
+    padding: 1rem 1rem;
+}
+
+.total__product,
+.desc__product {
+    font-size: 18px;
+    color: white;
+}
+
+.view__product {
+    padding: 5px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.desc {
+    padding-left: 1rem;
+}
+
+.cards {
+    box-shadow: 0px 3px rgba(218, 214, 214, 0.858);
+}
